@@ -1,11 +1,11 @@
-# security_auditor/
-├── audit.sh
-└── modules/
-    ├── check_world_writable.sh
-    ├── check_empty_passwords.sh
-    ├── check_services.sh
-    ├── check_open_ports.sh
-    └── remediate.sh
+# security_auditor/                                                                                                                                  
+├── audit.sh                                                                                                     
+└── modules/                                                                                 
+    ├── check_world_writable.sh                                                 
+    ├── check_empty_passwords.sh                                                              
+    ├── check_services.sh                                                                   
+    ├── check_open_ports.sh                                                                 
+    └── remediate.sh                                                                            
     
 Installation: mkdir -p ~/security_auditor/modules
               cd ~/security_auditor
